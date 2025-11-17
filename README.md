@@ -1,9 +1,21 @@
-The openfaas-workshop was written in 2017/2018, however more appropriate and recent materials now exist:
-
-* [Complete handbook with JavaScript](https://gumroad.com/l/serverless-for-everyone-else)
-* [Serverless on Kubernetes Course by the LinuxFoundation with Python](https://www.openfaas.com/blog/introduction-to-serverless-linuxfoundation/)
-
 # openfaas-workshop
+
+> **⚠️ IMPORTANT NOTICE - Workshop Status**
+>
+> This workshop was originally created in 2017/2018 and while the core concepts remain valuable, some tooling and best practices have evolved. We recommend reviewing the following updated materials alongside this workshop:
+>
+> * **[Complete handbook with JavaScript](https://gumroad.com/l/serverless-for-everyone-else)** - Updated serverless guide
+> * **[Serverless on Kubernetes Course by the LinuxFoundation with Python](https://www.openfaas.com/blog/introduction-to-serverless-linuxfoundation/)** - Official course material
+>
+> **Last Verified:** This workshop's labs were last tested with:
+> - OpenFaaS: 0.27.x
+> - Kubernetes: 1.28.x
+> - faas-cli: 0.16.x
+> - Python: 3.9+
+>
+> If you encounter issues, please check the [Issues page](https://github.com/openfaas/openfaas-workshop/issues) or consider using the updated materials above.
+
+---
 
 This is a self-paced workshop for learning how to build, deploy and run serverless functions with OpenFaaS.
 

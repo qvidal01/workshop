@@ -1,0 +1,25 @@
+[default]
+extend-ignore-re = [
+  # Technical terms, commands, URLs
+  "faas",
+  "kubectl",
+  "arkade",
+  "k3d",
+  "k3s",
+  "openfaas",
+  "github",
+  "githubusercontent",
+]
+
+[files]
+extend-exclude = [
+  "*.min.js",
+  "*.min.css",
+  "build/",
+  "dist/",
+  "vendor/",
+  "node_modules/",
+]
+
+[default.extend-words]
+# Add custom dictionary for workshop-specific terms
